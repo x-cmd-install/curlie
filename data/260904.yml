@@ -7,7 +7,7 @@ about:
   head: 5dfcbb1
   archived: false
   latestVersion: v1.8.2
-  collectedAt: 2026-09-04T19:34:03Z
+  collectedAt: 2026-09-04T21:01:31Z
 timeline:
   created: 2018-05-26
   lastCommit: 2025-12-07
@@ -81,6 +81,34 @@ total:
   openIssue: 24
   commit: 91
 ---
+path: /home/runner/.x-repo/github.com/rs/curlie
+collectedAt: 2026-09-04T21:01:32Z
+loc:
+  Go:
+    code: 929
+    comments: 44
+    blanks: 79
+    files: 13
+  Sh:
+    code: 1
+    comments: 1
+    blanks: 1
+    files: 1
+  Yaml:
+    code: 1
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 68
+    blanks: 37
+    files: 1
+total:
+  code: 931
+  comments: 113
+  blanks: 117
+  files: 16
 ---
 date: "2026-08-24"
 repo:
