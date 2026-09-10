@@ -1,0 +1,696 @@
+- repo: wakemeops
+  subrepo: terminal
+  binname: curlie
+  visiblename: curlie
+  version: 1.6.9
+  origversion: 1.6.9-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: curlie
+  binnames:
+    - curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nilsonfsilva@hotmail.com
+  categories:
+    - net
+- repo: alpine_3_17
+  subrepo: community
+  srcname: curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.6.9
+  origversion: 1.6.9-r9
+  status: outdated
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: curlie
+  binname: curlie-doc
+  visiblename: curlie-doc
+  version: 1.6.9
+  origversion: 1.6.9-r9
+  status: outdated
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie (documentation)
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.7.1
+  origversion: 1.7.1-r4
+  status: outdated
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: curlie
+  binname: curlie-doc
+  visiblename: curlie-doc
+  version: 1.7.1
+  origversion: 1.7.1-r4
+  status: outdated
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie (documentation)
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.7.1
+  origversion: 1.7.1-r7
+  status: outdated
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: curlie
+  binname: curlie-doc
+  visiblename: curlie-doc
+  version: 1.7.1
+  origversion: 1.7.1-r7
+  status: outdated
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie (documentation)
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.7.2
+  origversion: 1.7.2-r5
+  status: outdated
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: curlie
+  binname: curlie-doc
+  visiblename: curlie-doc
+  version: 1.7.2
+  origversion: 1.7.2-r5
+  status: outdated
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie (documentation)
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.7.2
+  origversion: 1.7.2-r10
+  status: outdated
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: curlie
+  binname: curlie-doc
+  visiblename: curlie-doc
+  version: 1.7.2
+  origversion: 1.7.2-r10
+  status: outdated
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie (documentation)
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-r8
+  status: newest
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: curlie
+  binname: curlie-doc
+  visiblename: curlie-doc
+  version: 1.8.2
+  origversion: 1.8.2-r8
+  status: newest
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie (documentation)
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: freebsd
+  srcname: ftp/curlie
+  binname: curlie
+  visiblename: ftp/curlie
+  version: 1.6.7
+  origversion: 1.6.7_45
+  status: outdated
+  summary: Frontend to cURL that adds the ease of use of HTTPie
+  maintainers:
+    - 0mp@freebsd.org
+  categories:
+    - ftp
+- repo: alpine_3_23
+  subrepo: community
+  srcname: curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-r13
+  status: newest
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: curlie
+  binname: curlie-doc
+  visiblename: curlie-doc
+  version: 1.8.2
+  origversion: 1.8.2-r13
+  status: newest
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie (documentation)
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-r14
+  status: newest
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: curlie
+  binname: curlie-doc
+  visiblename: curlie-doc
+  version: 1.8.2
+  origversion: 1.8.2-r14
+  status: newest
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie (documentation)
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-r14
+  status: newest
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: curlie
+  binname: curlie-doc
+  visiblename: curlie-doc
+  version: 1.8.2
+  origversion: 1.8.2-r14
+  status: newest
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie (documentation)
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alt_p11
+  srcname: curlie
+  binnames:
+    - curlie
+    - curlie-debuginfo
+  visiblename: curlie
+  version: 1.8.1
+  origversion: 1.8.1-alt1
+  status: outdated
+  summary: User-friendly curl wrapper with HTTPie-style syntax and features
+  maintainers:
+    - tulskijms@altlinux.org
+  licenses:
+    - MIT
+  categories:
+    - Development/Other
+- repo: altsisyphus
+  srcname: curlie
+  binnames:
+    - curlie
+    - curlie-debuginfo
+  visiblename: curlie
+  version: 1.8.1
+  origversion: 1.8.1-alt1
+  status: outdated
+  summary: User-friendly curl wrapper with HTTPie-style syntax and features
+  maintainers:
+    - tulskijms@altlinux.org
+  licenses:
+    - MIT
+  categories:
+    - Development/Other
+- repo: arch
+  subrepo: extra
+  srcname: curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: newest
+  summary: The power of curl, the ease of use of httpie.
+  licenses:
+    - MIT
+- repo: debian_14
+  subrepo: forky/main
+  srcname: curlie
+  binnames:
+    - curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nilsonfsilva@hotmail.com
+  categories:
+    - net
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: curlie
+  binnames:
+    - curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nilsonfsilva@hotmail.com
+  categories:
+    - net
+- repo: gentoo_ovl_guru
+  srcname: net-misc/curlie
+  visiblename: net-misc/curlie
+  version: 1.8.2
+  origversion: null
+  status: newest
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie
+  maintainers:
+    - freijon@pm.me
+  licenses:
+    - MIT
+  categories:
+    - net-misc
+- repo: gnuguix
+  srcname: curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: null
+  status: newest
+  summary: The power of curl, the ease of use of httpie
+- repo: homebrew
+  srcname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: null
+  status: newest
+  summary: Power of curl, ease of use of httpie
+- repo: kali_rolling
+  subrepo: main
+  srcname: curlie
+  binnames:
+    - curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nilsonfsilva@hotmail.com
+  categories:
+    - net
+- repo: liguros_stable
+  srcname: net-misc/curlie
+  visiblename: net-misc/curlie
+  version: 1.8.2
+  origversion: null
+  status: newest
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie
+  maintainers:
+    - freijon@pm.me
+  licenses:
+    - MIT
+  categories:
+    - net-misc
+- repo: liguros_develop
+  srcname: net-misc/curlie
+  visiblename: net-misc/curlie
+  version: 1.8.2
+  origversion: null
+  status: newest
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie
+  maintainers:
+    - freijon@pm.me
+  licenses:
+    - MIT
+  categories:
+    - net-misc
+- repo: macports
+  srcname: net/curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: null
+  status: newest
+  summary: The power of curl, the ease of use of httpie.
+  maintainers:
+    - judaew@macports
+    - judaew@github
+  licenses:
+    - MIT
+  categories:
+    - net
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: newest
+  summary: The power of curl, the ease of use of httpie.
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: newest
+  summary: The power of curl, the ease of use of httpie.
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: newest
+  summary: The power of curl, the ease of use of httpie.
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: curlie
+  visiblename: curlie
+  version: 1.7.2
+  origversion: null
+  status: outdated
+  summary: Frontend to curl that adds the ease of use of httpie, without compromising on features and performance
+  maintainers:
+    - maximilian@mbosch.me
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: curlie
+  visiblename: curlie
+  version: 1.7.2
+  origversion: null
+  status: outdated
+  summary: Frontend to curl that adds the ease of use of httpie, without compromising on features and performance
+  maintainers:
+    - maximilian@mbosch.me
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: null
+  status: newest
+  summary: Frontend to curl that adds the ease of use of httpie, without compromising on features and performance
+  maintainers:
+    - maximilian@mbosch.me
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: null
+  status: newest
+  summary: Frontend to curl that adds the ease of use of httpie, without compromising on features and performance
+  maintainers:
+    - maximilian@mbosch.me
+  licenses:
+    - MIT
+- repo: nix_stable_26_05
+  srcname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: null
+  status: newest
+  summary: Frontend to curl that adds the ease of use of httpie, without compromising on features and performance
+  maintainers:
+    - maximilian@mbosch.me
+  licenses:
+    - MIT
+- repo: nix_unstable
+  srcname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: null
+  status: newest
+  summary: Frontend to curl that adds the ease of use of httpie, without compromising on features and performance
+  maintainers:
+    - maximilian@mbosch.me
+  licenses:
+    - MIT
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: curlie
+  visiblename: curlie
+  version: 1.6.9
+  origversion: 1.6.9-bp155.1.8
+  status: outdated
+  summary: a frontend to curl that adds the ease of use of httpie
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: curlie
+  visiblename: curlie
+  version: 1.7.1
+  origversion: 1.7.1-bp156.1.14
+  status: outdated
+  summary: a frontend to curl that adds the ease of use of httpie
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: curlie
+  binnames:
+    - curlie
+    - curlie-debuginfo
+    - curlie-debugsource
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-1.7
+  status: newest
+  summary: a frontend to curl that adds the ease of use of httpie
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: parabola
+  subrepo: extra
+  srcname: curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: newest
+  summary: The power of curl, the ease of use of httpie.
+  licenses:
+    - MIT
+- repo: raspbian_testing
+  subrepo: main
+  srcname: curlie
+  binnames:
+    - curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nilsonfsilva@hotmail.com
+  categories:
+    - net
+- repo: rosa_13
+  subrepo: contrib/release
+  srcname: curlie
+  binnames:
+    - curlie
+    - curlie-debuginfo
+    - curlie-debugsource
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: newest
+  summary: The power of curl, the ease of use of httpie
+  maintainers:
+    - a.proklov@rosa.ru
+  licenses:
+    - MIT
+  categories:
+    - Networking/Other
+- repo: scoop
+  subrepo: main
+  binname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: stalix
+  srcname: bin/curlie/unwrap
+  binname: bin/curlie
+  visiblename: bin/curlie
+  version: 1.8.2
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: bin/curlie/unwrap
+  binname: bin/curlie
+  visiblename: bin/curlie
+  version: 1.8.2
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: termux
+  srcname: curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: null
+  status: newest
+  summary: The power of curl, the ease of use of httpie
+  maintainers:
+    - termux@github
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: curlie
+  binnames:
+    - curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nilsonfsilva@hotmail.com
+  categories:
+    - universe/net
+- repo: wakemeops
+  subrepo: terminal
+  binname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-1~ops2deb
+  status: newest
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: curlie
+  visiblename: curlie
+  version: 1.7.2
+  origversion: 1.7.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: curlie
+  visiblename: curlie
+  version: 1.7.1
+  origversion: 1.7.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: curlie
+  visiblename: curlie
+  version: 1.6.7
+  origversion: 1.6.7-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
