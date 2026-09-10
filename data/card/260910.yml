@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.8.2"
   latestRelease: "v1.8.2"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:03:46Z
+  collectedAt: 2026-09-10T22:46:40Z
 timeline:
   created: 2018-05-26
   lastCommit: 2025-12-07
@@ -84,7 +84,7 @@ total:
   commit: 91
 ---
 path: /home/runner/.x-repo/github.com/rs/curlie
-collectedAt: 2026-09-10T21:03:48Z
+collectedAt: 2026-09-10T22:46:41Z
 loc:
   Go:
     code: 929
