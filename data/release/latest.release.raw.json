@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 3195,
       "digest": null,
-      "download_count": 79143,
+      "download_count": 79256,
       "created_at": "2025-03-07T08:54:05Z",
       "updated_at": "2025-03-07T08:54:06Z",
       "browser_download_url": "https://github.com/rs/curlie/releases/download/v1.8.2/curlie_1.8.2_checksums.txt"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3064,
       "digest": null,
-      "download_count": 1290,
+      "download_count": 1291,
       "created_at": "2025-03-07T08:54:06Z",
       "updated_at": "2025-03-07T08:54:06Z",
       "browser_download_url": "https://github.com/rs/curlie/releases/download/v1.8.2/curlie_1.8.2_checksums.txt.pem"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 1092242,
       "digest": null,
-      "download_count": 513,
+      "download_count": 514,
       "created_at": "2025-03-07T08:54:00Z",
       "updated_at": "2025-03-07T08:54:00Z",
       "browser_download_url": "https://github.com/rs/curlie/releases/download/v1.8.2/curlie_1.8.2_darwin_amd64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 1032570,
       "digest": null,
-      "download_count": 1188,
+      "download_count": 1189,
       "created_at": "2025-03-07T08:54:00Z",
       "updated_at": "2025-03-07T08:54:00Z",
       "browser_download_url": "https://github.com/rs/curlie/releases/download/v1.8.2/curlie_1.8.2_darwin_arm64.tar.gz"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 1100700,
       "digest": null,
-      "download_count": 1360,
+      "download_count": 1365,
       "created_at": "2025-03-07T08:54:04Z",
       "updated_at": "2025-03-07T08:54:04Z",
       "browser_download_url": "https://github.com/rs/curlie/releases/download/v1.8.2/curlie_1.8.2_linux_amd64.deb"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 1131334,
       "digest": null,
-      "download_count": 371,
+      "download_count": 372,
       "created_at": "2025-03-07T08:54:05Z",
       "updated_at": "2025-03-07T08:54:05Z",
       "browser_download_url": "https://github.com/rs/curlie/releases/download/v1.8.2/curlie_1.8.2_linux_amd64.rpm"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 1099430,
       "digest": null,
-      "download_count": 20482,
+      "download_count": 20591,
       "created_at": "2025-03-07T08:54:02Z",
       "updated_at": "2025-03-07T08:54:03Z",
       "browser_download_url": "https://github.com/rs/curlie/releases/download/v1.8.2/curlie_1.8.2_linux_amd64.tar.gz"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 1019210,
       "digest": null,
-      "download_count": 2939,
+      "download_count": 2943,
       "created_at": "2025-03-07T08:54:03Z",
       "updated_at": "2025-03-07T08:54:03Z",
       "browser_download_url": "https://github.com/rs/curlie/releases/download/v1.8.2/curlie_1.8.2_linux_arm64.tar.gz"
@@ -1219,7 +1219,7 @@
       "state": "uploaded",
       "size": 1180751,
       "digest": null,
-      "download_count": 2665,
+      "download_count": 2668,
       "created_at": "2025-03-07T08:54:02Z",
       "updated_at": "2025-03-07T08:54:02Z",
       "browser_download_url": "https://github.com/rs/curlie/releases/download/v1.8.2/curlie_1.8.2_windows_amd64.zip"
