@@ -4,7 +4,7 @@
 
 The power of curl, the ease of use of httpie.
 
-![curlie](https://repo.x-cmd.io/curlie.svg)
+[![x-cmd/install — curlie Code Quality Monitoring Repo Card](https://repo.x-cmd.io/curlie.svg)](https://x-cmd.com/install/curlie)
 
 ## Install
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,725 · **Forks**: 114 · **Open issues**: 55 · **Contributors**: 27
+- **Stars**: 3,726 · **Forks**: 114 · **Open issues**: 56 · **Contributors**: 27
 
 ## Totals (cumulative)
 
-- **Releases**: 19 · **Merged PRs**: 38 · **Open PRs**: 2 · **Closed issues**: 31 · **Open issues**: 24 · **Commits**: 91
+- **Releases**: 19 · **Merged PRs**: 38 · **Open PRs**: 2 · **Closed issues**: 31 · **Open issues**: 25 · **Commits**: 91
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-07-20 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 90d | 2026-06-20 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last180d | 2026-03-22 | 0 | 0 | 2 | 1 | 1 | 0 |
-| 360d | 2025-09-23 | 0 | 1 | 2 | 1 | 3 | 1 |
-| last720d | 2024-09-28 | 1 | 6 | 2 | 4 | 4 | 12 |
+| 30d | 2026-08-21 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last60d | 2026-07-22 | 0 | 0 | 1 | 0 | 1 | 0 |
+| 90d | 2026-06-22 | 0 | 0 | 1 | 0 | 1 | 0 |
+| last180d | 2026-03-24 | 0 | 0 | 2 | 1 | 2 | 0 |
+| 360d | 2025-09-25 | 0 | 1 | 2 | 1 | 4 | 1 |
+| last720d | 2024-09-30 | 1 | 6 | 2 | 4 | 5 | 12 |
 
 ## Release assets
 
@@ -114,4 +114,4 @@ Install metadata for curlie lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:25:15Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:27:27Z._
