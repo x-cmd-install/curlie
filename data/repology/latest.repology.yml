@@ -1,16 +1,21 @@
-- repo: alpine_3_17
-  subrepo: community
-  srcname: curlie
-  binname: curlie-doc
-  visiblename: curlie-doc
+- repo: wakemeops
+  subrepo: terminal
+  binname: curlie
+  visiblename: curlie
   version: 1.6.9
-  origversion: 1.6.9-r9
-  status: outdated
-  summary: Curlie is a frontend to curl that adds the ease of use of httpie (documentation)
+  origversion: 1.6.9-1~ops2deb
+  status: legacy
   maintainers:
-    - aklitzing@gmail.com
-  licenses:
-    - MIT
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: curlie
+  visiblename: curlie
+  version: 1.6.7
+  origversion: 1.6.7-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: alpine_3_17
   subrepo: community
   srcname: curlie
@@ -20,6 +25,19 @@
   origversion: 1.6.9-r9
   status: outdated
   summary: Curlie is a frontend to curl that adds the ease of use of httpie
+  maintainers:
+    - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: curlie
+  binname: curlie-doc
+  visiblename: curlie-doc
+  version: 1.6.9
+  origversion: 1.6.9-r9
+  status: outdated
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie (documentation)
   maintainers:
     - aklitzing@gmail.com
   licenses:
@@ -154,6 +172,18 @@
     - aklitzing@gmail.com
   licenses:
     - MIT
+- repo: freebsd
+  srcname: ftp/curlie
+  binname: curlie
+  visiblename: ftp/curlie
+  version: 1.8.2
+  origversion: 1.8.2_2
+  status: newest
+  summary: Frontend to cURL that adds the ease of use of HTTPie
+  maintainers:
+    - 0mp@freebsd.org
+  categories:
+    - ftp
 - repo: alpine_3_23
   subrepo: community
   srcname: curlie
@@ -212,7 +242,7 @@
   binname: curlie
   visiblename: curlie
   version: 1.8.2
-  origversion: 1.8.2-r14
+  origversion: 1.8.2-r15
   status: newest
   summary: Curlie is a frontend to curl that adds the ease of use of httpie
   maintainers:
@@ -225,7 +255,7 @@
   binname: curlie-doc
   visiblename: curlie-doc
   version: 1.8.2
-  origversion: 1.8.2-r14
+  origversion: 1.8.2-r15
   status: newest
   summary: Curlie is a frontend to curl that adds the ease of use of httpie (documentation)
   maintainers:
@@ -317,18 +347,6 @@
     - nilsonfsilva@hotmail.com
   categories:
     - net
-- repo: freebsd
-  srcname: ftp/curlie
-  binname: curlie
-  visiblename: ftp/curlie
-  version: 1.8.2
-  origversion: 1.8.2_2
-  status: newest
-  summary: Frontend to cURL that adds the ease of use of HTTPie
-  maintainers:
-    - 0mp@freebsd.org
-  categories:
-    - ftp
 - repo: gentoo_ovl_guru
   srcname: net-misc/curlie
   visiblename: net-misc/curlie
@@ -673,24 +691,6 @@
   visiblename: curlie
   version: 1.7.1
   origversion: 1.7.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: curlie
-  visiblename: curlie
-  version: 1.6.9
-  origversion: 1.6.9-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: curlie
-  visiblename: curlie
-  version: 1.6.7
-  origversion: 1.6.7-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
