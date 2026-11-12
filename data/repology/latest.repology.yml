@@ -1,12 +1,12 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: curlie
-  binname: curlie-doc
-  visiblename: curlie-doc
+  binname: curlie
+  visiblename: curlie
   version: 1.6.9
   origversion: 1.6.9-r9
   status: outdated
-  summary: Curlie is a frontend to curl that adds the ease of use of httpie (documentation)
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie
   maintainers:
     - aklitzing@gmail.com
   licenses:
@@ -14,12 +14,12 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: curlie
-  binname: curlie
-  visiblename: curlie
+  binname: curlie-doc
+  visiblename: curlie-doc
   version: 1.6.9
   origversion: 1.6.9-r9
   status: outdated
-  summary: Curlie is a frontend to curl that adds the ease of use of httpie
+  summary: Curlie is a frontend to curl that adds the ease of use of httpie (documentation)
   maintainers:
     - aklitzing@gmail.com
   licenses:
@@ -154,18 +154,6 @@
     - aklitzing@gmail.com
   licenses:
     - MIT
-- repo: freebsd
-  srcname: ftp/curlie
-  binname: curlie
-  visiblename: ftp/curlie
-  version: 1.8.2
-  origversion: 1.8.2_2
-  status: newest
-  summary: Frontend to cURL that adds the ease of use of HTTPie
-  maintainers:
-    - 0mp@freebsd.org
-  categories:
-    - ftp
 - repo: alpine_3_23
   subrepo: community
   srcname: curlie
@@ -216,6 +204,17 @@
   summary: Curlie is a frontend to curl that adds the ease of use of httpie (documentation)
   maintainers:
     - aklitzing@gmail.com
+  licenses:
+    - MIT
+- repo: parabola
+  subrepo: extra
+  srcname: curlie
+  binname: curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: newest
+  summary: The power of curl, the ease of use of httpie.
   licenses:
     - MIT
 - repo: alpine_edge
@@ -329,6 +328,18 @@
     - nilsonfsilva@hotmail.com
   categories:
     - net
+- repo: freebsd
+  srcname: ftp/curlie
+  binname: curlie
+  visiblename: ftp/curlie
+  version: 1.8.2
+  origversion: 1.8.2_3
+  status: newest
+  summary: Frontend to cURL that adds the ease of use of HTTPie
+  maintainers:
+    - 0mp@freebsd.org
+  categories:
+    - ftp
 - repo: gentoo_ovl_guru
   srcname: net-misc/curlie
   visiblename: net-misc/curlie
@@ -358,6 +369,20 @@
   status: newest
   summary: Power of curl, ease of use of httpie
 - repo: kali_rolling
+  subrepo: main
+  srcname: curlie
+  binnames:
+    - curlie
+  visiblename: curlie
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - nilsonfsilva@hotmail.com
+  categories:
+    - net
+- repo: raspbian_testing
   subrepo: main
   srcname: curlie
   binnames:
@@ -551,31 +576,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: parabola
-  subrepo: extra
-  srcname: curlie
-  binname: curlie
-  visiblename: curlie
-  version: 1.8.2
-  origversion: 1.8.2-1
-  status: newest
-  summary: The power of curl, the ease of use of httpie.
-  licenses:
-    - MIT
-- repo: raspbian_testing
-  subrepo: main
-  srcname: curlie
-  binnames:
-    - curlie
-  visiblename: curlie
-  version: 1.8.2
-  origversion: 1.8.2-1
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - nilsonfsilva@hotmail.com
-  categories:
-    - net
 - repo: rosa_13
   subrepo: contrib/release
   srcname: curlie
