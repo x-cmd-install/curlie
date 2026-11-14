@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 3,731 · **Forks**: 120 · **Open issues**: 57 · **Contributors**: 27
+- **Stars**: 3,731 · **Forks**: 121 · **Open issues**: 57 · **Contributors**: 27
 
 ## Totals (cumulative)
 
-- **Releases**: 19 · **Merged PRs**: 38 · **Open PRs**: 6 · **Closed issues**: 31 · **Open issues**: 26 · **Commits**: 91
+- **Releases**: 19 · **Merged PRs**: 38 · **Open PRs**: 7 · **Closed issues**: 31 · **Open issues**: 26 · **Commits**: 91
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-14 | 0 | 0 | 4 | 0 | 2 | 0 |
-| 90d | 2026-08-15 | 0 | 0 | 5 | 0 | 2 | 0 |
-| last180d | 2026-05-17 | 0 | 0 | 6 | 1 | 2 | 0 |
-| 360d | 2025-11-18 | 0 | 1 | 6 | 1 | 5 | 1 |
-| last720d | 2024-11-23 | 1 | 6 | 6 | 3 | 6 | 12 |
+| 30d | 2026-10-15 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-09-15 | 0 | 0 | 5 | 0 | 2 | 0 |
+| 90d | 2026-08-16 | 0 | 0 | 6 | 0 | 2 | 0 |
+| last180d | 2026-05-18 | 0 | 0 | 7 | 1 | 2 | 0 |
+| 360d | 2025-11-19 | 0 | 1 | 7 | 1 | 5 | 1 |
+| last720d | 2024-11-24 | 1 | 6 | 7 | 3 | 6 | 12 |
 
 ## Release assets
 
@@ -128,4 +128,4 @@ Install metadata for curlie lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T08:30:58Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T08:27:25Z._
